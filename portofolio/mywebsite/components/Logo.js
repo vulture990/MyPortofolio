@@ -9,9 +9,8 @@ const Logo = () => {
         <div className="flex flex-row">
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 640 640"
-            width="150"
-            height="150"
+            viewBox="0 0 458 458"
+            width="100px"
             overflow="visible"
             whileHover={{ x: 8}}
             initial={{ x: 50, opacity: 0 }}

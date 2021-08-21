@@ -1,5 +1,5 @@
-import Logo from '../components/Logo'
 import MetaTags from '../components/MetaTags'
+import Navbar from '../components/NavBar'
 
 export default function Home() {
   return (
@@ -7,7 +7,11 @@ export default function Home() {
       <MetaTags 
         title="Salbi Mohamed -Software Engineer, Creator"
       />
-      <Logo/>
+      
+      <div className="flex flex-col h-screen container mx-auto px-6">
+        <Navbar />
+        {/* {children} */}
+      </div>
     </div>
   )
 }
