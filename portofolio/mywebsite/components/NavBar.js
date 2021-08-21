@@ -32,7 +32,7 @@ const Navbar=()=>{
             <MenuAnimation toggle={() => toggleOpen()}/>
             </motion.div> 
             <div className="hidden sm:block">
-                <Routes links={links}></Routes>
+                {/* <Routes links={links}></Routes> */}
             </div>
            </nav>
            <AnimatePresence>
