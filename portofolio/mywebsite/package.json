@@ -1,5 +1,5 @@
 {
-  "name": "portofolio",
+  "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,9 @@
   },
   "dependencies": {
     "next": "11.1.0",
-    "next-seo": "^4.26.0",
-    "next-themes": "0.0.15",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "framer-motion": "^2.9.4"
   },
   "devDependencies": {
     "eslint": "7.32.0",
