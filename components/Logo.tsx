@@ -1,3 +1,5 @@
+// @ts-ignore
+
 import React, { FC } from "react";
 import { motion,AnimatePresence, useCycle  } from "framer-motion";
 
