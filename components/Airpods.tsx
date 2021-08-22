@@ -29,7 +29,6 @@ const Doodles: FC = () => {
     <div className="absolute bottom-0 left-0 h-16 w-16 ...">
     <motion.svg width="128px" height="128px" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"
     variants={svgVariants}
-    initial="hidden"
     animate="visible"
     whileHover={{ y: 20}}
     initial={{ x: 80, opacity: 0}}
