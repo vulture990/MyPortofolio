@@ -6,7 +6,6 @@ import NProgress from "nprogress";
 import Layout from "@/components/Layout";
 import "@/styles/index.css";
 import "@/styles/nprogress.css";
-import { motion } from "framer-motion";
 
 NProgress.configure({ showSpinner: true });
 Router.events.on("routeChangeStart", () => NProgress.start());
