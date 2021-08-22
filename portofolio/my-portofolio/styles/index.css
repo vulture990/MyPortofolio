@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+*::selection {
+  background-color: #222;
+  color: white;
+}
+
+/* body {
+  background: #f8f8f8;
+} */
+
+.external::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
+@tailwind utilities;
