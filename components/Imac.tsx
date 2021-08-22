@@ -18,10 +18,9 @@ const Mac: FC = () => {
 <div className="absolute bottom-0 right-0  h-16 w-16 ...">
 <motion.svg width="128px" height="128px" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"
 variants={svgVariants}
-    animate="visible"
     whileHover={{ y: 20}}
     initial={{ x: 80, opacity: 0}}
-    animate={{ x: 0,y:50, opacity: 1 }}
+    animate={{ y:50, opacity: 1 }}
     transition={{ type: "spring", stiffness: 50 }}
     onMouseEnter={() => toggleName()}
     onMouseLeave={() => toggleName()}
