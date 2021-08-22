@@ -6,7 +6,7 @@ module.exports = {
     fontFamily: {
       sans:
         '"Roboto Condensed", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
-      serif: 'Arvo, Georgia, Cambria, "Times New Roman", Times, serif',
+      serif: 'Arvo, Georgia, Cambria, "Times New Roman", Times, serif, Arcade',
     },
     extend: {
       boxShadow: {

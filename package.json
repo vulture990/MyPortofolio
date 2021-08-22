@@ -1,7 +1,5 @@
 {
-  "name": "alaazorkane",
   "version": "1.0.0",
-  "author": "Alaa Zorkane <https://github.com/alaazorkane>",
   "scripts": {
     "dev": "next",
     "build": "next build",

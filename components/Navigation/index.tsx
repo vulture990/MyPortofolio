@@ -19,9 +19,7 @@ const Navigation: FC = () => {
   return (
     <>
       <nav className="flex py-6 items-center justify-between bg-white">
-        <div>
           <Logo />
-        </div>
         <motion.div
           className="flex flex-row sm:hidden"
           initial={false}
@@ -30,7 +28,7 @@ const Navigation: FC = () => {
           <SocialLinks className="inline-flex mr-3" />
           <MenuToggle toggle={() => toggleOpen()} />
         </motion.div>
-        <div className="hidden sm:block">
+        <div className="hidden sm:block  font-serif font-light">
           <NavLinks links={links} />
         </div>
       </nav>

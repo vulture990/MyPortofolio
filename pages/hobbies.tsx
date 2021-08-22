@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { NextSeo } from "next-seo";
 
-const MiscPage: FC = () => {
+const Hobbies: FC = () => {
   return (
     <>
       <NextSeo title="Other" />
@@ -12,4 +12,4 @@ const MiscPage: FC = () => {
   );
 };
 
-export default MiscPage;
+export default Hobbies;
