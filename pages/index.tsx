@@ -2,6 +2,9 @@ import React, { FC } from "react";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import Hi from "@/components/Hi";
+import Doodles from "@/components/Airpods";
+import Mac from "@/components/Imac";
+import Drone from "@/components/Drone";
 
 
 
@@ -45,9 +48,9 @@ const IndexPage: FC = () => {
             // alt="hero"
             className="w-4/6 sm:w-auto xl:w-5/12 mb-4 sm:mb-0 mx-auto lg:mx-0"
           /> */}
-          {/* <Doodles/> */}
-          {/* <Mac/> */}
-          {/* <Drone/> */}
+          <Doodles/>
+          <Mac/>
+          <Drone/>
         </section>
           {/* <Game/> */}
             </div>
