@@ -1,11 +1,6 @@
-
 import React, { FC } from "react";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
-import Hi from "@/components/Hi";
-import Doodles from "@/components/Airpods";
-import Mac from "@/components/Imac";
-import Drone from "@/components/Drone";
 
 
 
