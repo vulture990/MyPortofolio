@@ -1,3 +1,5 @@
+// @ts-ignore
+
 import React, { FC } from "react";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
