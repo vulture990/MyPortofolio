@@ -1,7 +1,7 @@
 // @ts-ignore
 
 import React, {FC} from "react";
-import {motion,useCycle} from "framer-motion";
+import {motion} from "framer-motion";
 
 const svgVariants = {
     hidden: {rotate:-180},
