@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { NextSeo } from "next-seo";
 
 
 const ProjectsPage: FC = () => {
