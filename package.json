@@ -7,7 +7,6 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@types/webpack": "^5.28.0",
     "framer-motion": "^2.9.4",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
