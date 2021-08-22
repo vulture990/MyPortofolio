@@ -17,7 +17,6 @@ const Drone: FC = () => {
 
     <motion.svg width="128px" height="128px" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"
     variants={svgVariants}
-    animate="visible"
     whileHover={{ y: 20}}
     initial={{ x: 80, opacity: 0}}
     animate={{ x: 0,y:50, opacity: 1 }}
