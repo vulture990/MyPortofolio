@@ -49,9 +49,9 @@ const IndexPage: FC = () => {
             // alt="hero"
             className="w-4/6 sm:w-auto xl:w-5/12 mb-4 sm:mb-0 mx-auto lg:mx-0"
           /> */}
-          <Doodles/>
-          <Mac/>
-          <Drone/>
+          {/* <Doodles/> */}
+          {/* <Mac/> */}
+          {/* <Drone/> */}
         </section>
           {/* <Game/> */}
             </div>
